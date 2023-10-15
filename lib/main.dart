@@ -5,13 +5,21 @@ void main() {
     MaterialApp(
       home: Scaffold(
         body: Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             gradient: LinearGradient(
-               colors:
-            )
+              colors: [
+                Color.fromARGB(255, 200, 174, 174),
+                Color.fromARGB(156, 179, 146, 165)
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
           ),
-          child: Center(
-            child: Text('Hello World!!'),
+          child: const Center(
+            child: Text(
+              'Hello World!!!!',
+              style: TextStyle(color: Colors.white, fontSize: 28),
+            ),
           ),
         ),
       ),
