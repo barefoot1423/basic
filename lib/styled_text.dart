@@ -5,7 +5,6 @@ class StyledText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return const Text(
       'Hello World!',
       style: TextStyle(
