@@ -11,6 +11,8 @@ void main() {
 }
 
 class GradientContainer extends StatelessWidget {
+  const GradientContainer({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -26,7 +28,7 @@ class GradientContainer extends StatelessWidget {
       ),
       child: const Center(
         child: Text(
-          'Hello World!!!!',
+          'Hello World!',
           style: TextStyle(
             color: Colors.white,
             fontSize: 28,
